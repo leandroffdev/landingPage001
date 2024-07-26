@@ -24,10 +24,20 @@
             </svg>
             <span>Wolf Hunter</span>
         </div>
+        
+        <span class="mobile">
+            <div></div>
+            <div></div>
+            <div></div>
+        </span>
+        <span class="close">
+            <div></div>
+            <div></div>
+        </span>
         <nav class="nav">
             <ul>
                 <li><a href="#home">home</a></li>
-                <li><a href="#about">abaout</a></li>
+                <li><a href="#about">about</a></li>
                 <li><a href="#services">services</a></li>
                 <li><a href="#portifolio">portifolio</a></li>
                 <li><a href="#resource">resource</a></li>
@@ -35,13 +45,88 @@
             </ul>
         </nav>
     </header>
-    <article class="main"></article>
+    <article class="main">
+        <section class="about container" id="about">
+            <h1 class="title">
+                <span>I'm Wolf,</span>
+                who loves perfect design & unique user experiences.
+            </h1>
+            <div>
+                <button class="btnPrimary">lest's talk <span>-></span></button>
+                <button class="btnSecondary">our services</button>
+            </div>
+            <div class="images">
+                <img src="./images/img01.jpg" alt="">
+                <img src="./images/img02.jpg" alt="">
+            </div>
+        </section>
+        <section class="services container" id="services">
+            <h2 class="title">explore <span>My Oferings </span>for you</h2>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Aliquid eos saepe sit iste dignissimos non quam.
+            </p>
+            <div class="serviceGrid">
+                <div class="serviceItem">
+                    <img src="" alt="icon">
+                    <h3>User Experience Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aliquid eos saepe
+                    </p>
+                </div>
+                <div class="serviceItem">
+                    <img src="" alt="icon">
+                    <h3>User Experience Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aliquid eos saepe
+                    </p>
+                </div>
+                <div class="serviceItem">
+                    <img src="" alt="icon">
+                    <h3>User Experience Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aliquid eos saepe
+                    </p>
+                </div>
+                <div class="serviceItem">
+                    <img src="" alt="icon">
+                    <h3>User Experience Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aliquid eos saepe
+                    </p>
+                </div>
+                <div class="serviceItem">
+                    <img src="" alt="icon">
+                    <h3>User Experience Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aliquid eos saepe
+                    </p>
+                </div>
+                <div class="serviceItem">
+                    <img src="" alt="icon">
+                    <h3>User Experience Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Aliquid eos saepe
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="portifolio container" id="portifolio"></section>
+        <section class="resource container" id="resource"></section>
+    </article>
     <footer class="footer">
         <div class="notify">
             <h2>Subscribe to our newsletter</h2>
             <form action="" class="form">
                 <label for="email">enter your email</label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
+                <button class="btnPrimary">Subscribe</button>
             </form>
         </div>
         <div class="info">
@@ -108,6 +193,7 @@
             </span>
         </div>
     </footer>
-    <script src="./scripts/main.js"></script>
+    <script type="module" src="./scripts/main.js"></script>
+    <script src="./scripts/mobile.js"></script>
 </body>
 </html>
