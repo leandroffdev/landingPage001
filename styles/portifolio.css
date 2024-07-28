@@ -21,12 +21,18 @@
 .portifolio button {
     margin: 0 20px;
 }
+.portList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .portItem {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     border-bottom: 1px solid #f0f0f0;
     padding: 20px;
     border-radius: 4px;
+    text-align: start;
 }
 .portItem:active img {
     display: flex;
@@ -34,7 +40,7 @@
 .portItem:hover {
     background-color: #f0f0f0;
     cursor: pointer;
-    scale: 1.05;
+    scale: 1.01;
     transition: .3s ease-in-out;
 }
 .portItem .project h3 span {
@@ -49,4 +55,5 @@
     margin-top: 20px;
     grid-column: 1 / -1;
     width: 100%;
+    border-radius: 8px;
 }
