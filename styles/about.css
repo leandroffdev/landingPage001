@@ -16,3 +16,13 @@
     height: 400px;
     border-radius: 8px;
 }
+@media (max-width: 800px) {
+    .about .images img {
+        height: 300px;
+    }
+}
+@media (max-width: 600px) {
+    .about .images img {
+        height: 200px;
+    }
+}

@@ -49,6 +49,7 @@
 .portItem .description {
     display: flex;
     align-items: start;
+    gap: 10px;
 }
 .portItem img {
     display: none;
@@ -56,4 +57,31 @@
     grid-column: 1 / -1;
     width: 100%;
     border-radius: 8px;
+}
+@media (max-width: 800px) {
+    .portifolio .portMain {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0;
+    }
+    .portifolio .portMain .title {
+        text-align: center;
+    }
+    .portifolio .text {
+        padding: 0 20px 20px 20px;
+    }
+    .portItem {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .portItem .project h3 {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 600px) {
+    .portItem .description .btnSecondary {
+        margin: 0 30px 0 0;
+    }
+    .portItem .description {
+        flex-wrap: wrap;
+    }
 }

@@ -30,3 +30,14 @@
     background-color: #f0f0f0;
     transition: .2s linear;
 }
+@media (max-width: 800px) {
+    .serviceGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .serviceGrid {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0;
+    }
+}

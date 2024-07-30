@@ -64,3 +64,16 @@
     height: 100%;
     width: cover;
 }
+@media (max-width: 450px) {
+    .resource .listItem {
+        display: flex;
+        flex-direction: column;
+    }
+    .resource .listItem .itemNumber {
+        font-size: 3rem;
+        align-self: flex-start;
+    }
+    .resource .listItem .itemArrow {
+        align-self: flex-end;
+    }
+}
